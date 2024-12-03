@@ -30,16 +30,21 @@ function crearEstructuraCard({ name, price, image, id }) {
 }
 
 function eventoEliminarProducto(card, name) {
+
   const botonEliminar = card.querySelector(".delete-button");
+
   botonEliminar.addEventListener("click", async () => {
+
     try {
       await requisiciones.borrarProducto(name);
       card.remove();
       alert(`Producto ${name} eliminado`);
     } catch (error) {
       alert(`Error al eliminar el producto ${name}`, error);
-    }
+      }
+
   });
+
 }
 
 
@@ -52,7 +57,7 @@ const renderizarProductos = async () => {
     });
   } catch (error) {
     console.error("Error al renderizar productos", error);
-  }
+    }
 };
 
 
@@ -76,7 +81,7 @@ form.addEventListener("submit", async (event) => {
       const nuevaCard = crearEstructuraCard(nuevoProducto);
       contenedorProductos.appendChild(nuevaCard);
     } catch (error) {
-      console.error("Error al crear el producto", error);
+      alert("Error al crear el producto", error);
     }
 
     form.reset(); 

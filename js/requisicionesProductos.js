@@ -22,6 +22,7 @@ const crearProducto = async (name, price, image) => {
 
     const data = await respuesta.json();
     console.log("Solicitud POST exitosa:", data);
+    if (!respuesta.ok){throw new Error ("Error al enviar el producto")};
     return data;
   } catch (error) {
     console.error("Error en la solicitud POST:", error);
