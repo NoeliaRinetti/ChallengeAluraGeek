@@ -1,22 +1,25 @@
 {
   "products": [
     {
-      "name": "Mouse Pad ergonómico",
-      "price": "10000",
-      "image": "https://ultramed.com.mx/wp-content/uploads/2022/06/kensington-mouse-pad.jpg",
-      "id": "2"
-    },
-    {
-      "name": "Apoya muñecas para teclado",
-      "price": "14000",
-      "image": "https://media.stockinthechannel.com/pic/ohmL1ryxkEOgHeV3nxOztA.r.jpg",
-      "id": "6"
-    },
-    {
       "id": "c9d7",
       "name": "Botella térmica de acero inoxidable",
       "price": "32000",
       "image": "https://http2.mlstatic.com/D_NQ_NP_2X_907037-MLU75696696591_042024-F.webp"
+      
+    },
+    {
+      "id": "aab0",
+      "name": "Auriculares con cancelación de ruido",
+      "price": "40000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_839587-MLA40459351752_012020-O.webp"
+      
+    },
+    {
+      "id": "3905",
+      "name": "Lámpara led para escritorio",
+      "price": "30000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_793501-MLU74826720589_022024-F.webp"
+      
     },
     {
       "id": "ee53",
@@ -25,46 +28,25 @@
       "image": "https://http2.mlstatic.com/D_NQ_NP_695780-MLA80655136685_112024-O.webp"
     },
     {
-      "id": "aab0",
-      "name": "Auriculares con cancelación de ruido",
-      "price": "40000",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_839587-MLA40459351752_012020-O.webp"
+      "name": "Apoya muñecas para teclado",
+      "price": "14000",
+      "image": "https://media.stockinthechannel.com/pic/ohmL1ryxkEOgHeV3nxOztA.r.jpg",
+      "id": "6" 
     },
     {
-      "id": "3905",
-      "name": "Lámpara led para escritorio",
-      "price": "30000",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_793501-MLU74826720589_022024-F.webp"
+      "name": "Mouse Pad ergonómico",
+      "price": "10000",
+      "image": "https://ultramed.com.mx/wp-content/uploads/2022/06/kensington-mouse-pad.jpg",
+      "id": "2"
+      
     },
     {
       "id": "39cc",
       "name": "Almohadón lumbar",
       "price": "20000",
       "image": "https://m.media-amazon.com/images/I/81c+6ADntZL._AC_SL1500_.jpg"
-    },
-    {
-      "id": "cf0b",
-      "name": "Nueva botella",
-      "price": "20000",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_907037-MLU75696696591_042024-F.webp"
-    },
-    {
-      "id": "cb97",
-      "name": "prueba",
-      "price": "10",
-      "image": "https://ultramed.com.mx/wp-content/uploads/2022/06/kensington-mouse-pad.jpg"
-    },
-    {
-      "id": "89d9",
-      "name": "pad ergonomico",
-      "price": "20",
-      "image": "https://ultramed.com.mx/wp-content/uploads/2022/06/kensington-mouse-pad.jpg"
-    },
-    {
-      "id": "9907",
-      "name": "FSDFSDCSDC",
-      "price": "SDFSDFSDF",
-      "image": "SDCSDCASDVSFVDFVADFVASDV"
     }
+   
+    
   ]
 }
