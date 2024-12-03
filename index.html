@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación web que permite gestionar una lista de productos">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>AluraGeek</title>
+</head>
+<body>
+	
+	 <header class="encabezado">
+        <img src="./assets/Logo.png" alt="dibujo de tres corazones y la palabra AluraGeek" />
+    </header>
+
+   
+    <main class="main-contenedor">
+
+        <section class="seccion-productos">
+            <h1>Mis Productos:</h1>
+            <div data-product class="productos-contenedor"></div>
+        </section>
+
+        
+        <section class="seccion-formulario">
+            <h1>Agregar Producto:</h1>
+
+         
+            <form class="form-contenedor" data-form>
+
+                <input data-name placeholder="Ingresá el nombre del producto" type="text">
+                <input data-price placeholder="Ingresá el precio" type="text">
+                <input data-image placeholder="Ingresá la Url de la imagen" type="text">
+                <span data-mensage class="mensaje-de-error"></span> 
+
+                <div class="button-contenedor">
+                    <button type="submit" class="button-submit" id="button"> Enviar </button>
+                    <button type="reset" class="button-reset" id="button">Limpiar</button>
+                </div>
+
+            </form>
+            
+        </section>
+
+    </main>
+
+ 
+    <footer class="footer-contenedor">
+        <div>
+            <img src="./assets/Logo.png" alt="dibujo de tres corazones y la palabra AluraGeek"/>
+            <p> Desarollado por Noelia R.</p>
+            <small>Alura Latam 2024</small>
+        </div>
+        
+    </footer>
+
+	<script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>
